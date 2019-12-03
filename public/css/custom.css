@@ -1,0 +1,236 @@
+.link-config {
+    background: #1AB394 !important;
+    color: #fff !important;
+    border-radius: 50px !important;
+    margin-top: 10px !important;
+    line-height: 0px !important;
+    min-height: 0px !important;
+    font-weight: normal !important;
+}
+
+.select-multinivel {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.select-multinivel label {
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.select-multinivel label:hover {
+    background: #f9f9f9;
+}
+
+.select-multinivel li {
+    padding: 0px 0px 0px 5px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+
+.ms-sel-ctn input {
+    border: none !important;
+}
+
+.navbar-default-new {
+}
+
+.navbar-default-new .panel-heading {
+    padding-bottom: 0px;
+}
+
+.navbar-default-new .nav.nav-tabs {
+    border: 0;
+}
+
+.navbar-default-new .nav.nav-tabs > li > a {
+    margin: 0px;
+}
+
+.dataTables_length {
+    float: left;
+}
+
+.dataTables_length label {
+    color: #ccc;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.dataTables_length select {
+    border: 1px solid #ddd;
+    color: #999;
+    font-weight: normal;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.dataTables_filter {
+    float: right;
+}
+
+.dataTables_filter label {
+    color: #ccc;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.dataTables_filter input {
+    border: 1px solid #ddd;
+    margin-left: 10px;
+    padding: 6px;
+    width: 250px;
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    box-sizing: border-box;
+    display: inline-block;
+    min-width: 1.5em;
+    padding: 0.5em 1em;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none !important;
+    cursor: pointer;
+    color: #333 !important;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    background: #f9f9f9;
+}
+
+.block-flat {
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    background: #FFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.nav-disabled:hover,
+.nav-disabled:focus {
+    color: #676a6c !important;
+    background: none !important;
+    border: 1px solid transparent !important;
+}
+
+.agile-list {
+    width: 100%;
+    height: 100%;
+    list-style-type: none;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.agile-list li {
+    background: #fff;
+    border: 1px solid #e7eaec;
+    border-bottom-width: 2px;
+    margin: 0px 0 7px 0;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.font-move-section {
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.panel-heading a[data-toggle="tab"]:focus,
+.panel-heading a[data-toggle="tab"]:hover,
+.panel-heading a[data-toggle="tab"]:active {
+    color: #676a6c !important;
+    font-weight: normal !important;
+}
+
+.panel-heading a[data-toggle="tab"] {
+    padding: 10px 10px !important;
+    font-weight: normal !important;
+}
+
+.panel-heading li.active a[data-toggle="tab"] {
+    /*font-weight: bold !important;*/
+}
+
+.panel-heading li.active a[data-toggle="tab"]:focus,
+.panel-heading li.active a[data-toggle="tab"]:hover {
+    color: #1ab394 !important;
+}
+
+.panel-heading .panel-title h1 {
+    padding-bottom: 10px;
+}
+
+.nav-tabs li.disabled {
+    padding-top: 13px;
+    padding-left: 20px;
+    color: rgba(0, 0, 0, 0.21);
+}
+
+:focus, :hover, :visited, :active {
+    outline: 0px !important;
+}
+
+.loading-spinner {
+    position: absolute;
+    right: 20px;
+    top: 60px;
+    display: none;
+}
+
+.btn-default.btn-outline {
+    background: white;
+}
+
+.seleciona-insumo-tarefa {
+    width: 800px;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 0px !important;
+    top: 50px;
+}
+
+.seleciona-insumo-tarefa .sa-button-container {
+    text-align: right;
+}
+
+.seleciona-insumo-tarefa button {
+    padding: 5px 25px;
+    margin-top: 10px;
+}
+
+.seleciona-insumo-tarefa button.confirm {
+    margin-right: 0px;
+}
+
+.seleciona-insumo-tarefa td {
+    padding: 3px !important;
+    vertical-align: middle !important;
+}
+
+.seleciona-insumo-tarefa td:first-child {
+    padding-left: 10px !important;
+}
+
+.seleciona-insumo-tarefa h2 {
+    display: none;
+}
+
+.seleciona-insumo-tarefa h2.title {
+    display: block;
+    margin: 0px 0px 10px 0px;
+}
+
+.seleciona-insumo-tarefa select {
+    height: 30px;
+    padding: 0px 5px;
+    width: 100px;
+}

@@ -1,0 +1,18 @@
+[
+    {
+        "descricao": "Múltiplas opções",
+        "tipo": "checkbox"
+    },
+    {
+        "descricao": "Escolher na lista",
+        "tipo": "select"
+    },
+    {
+        "descricao": "Texto curto",
+        "tipo": "input"
+    },
+    {
+        "descricao": "Texto longo",
+        "tipo": "textarea"
+    }
+]

@@ -1,0 +1,1 @@
+<a href="{{ $url }}" class="btn btn-default" title="Limpar pesquisa"><i class="fa fa-refresh"></i></a>

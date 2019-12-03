@@ -1,0 +1,14 @@
+@extends('layouts.template')
+
+@section('conteudo')
+    <div class="[{tabela}] add panel panel-default">
+        <div class="panel-body">
+            <h1>Alterar [{titulo}]</h1>
+            <hr>
+            <form class="form-horizontal validate" method="post" role="form" action="{{ route('[{route_as}].alterar.post', $[{tabela}]->id) }}">
+                @include('partials.preenchimento_obrigatorio')
+                @include('[{tabela}].form')
+            </form>
+        </div>
+    </div>
+@endsection

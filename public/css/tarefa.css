@@ -1,0 +1,170 @@
+div.item-tarefa{position: relative;border-radius: 0px;box-shadow: none;padding: 0px;}
+div.item-tarefa table{width: 100%;}
+div.item-tarefa table td.col-1{padding: 9px 20px;border-right: 1px solid #ddd;font-size: 30px;color: #aaa;}
+div.item-tarefa table td.col-2{vertical-align: top;}
+div.item-tarefa table td.col-2 h4{margin: 5px 0px 0px 0px; color: #999;}
+div.item-tarefa table td.col-2 h6{margin: 5px 0px 0px 0px; font-size: 12px;}
+div.item-tarefa table td.col-2 div{overflow: auto;height: 77px; padding: 0px 5px 5px 5px;}
+div.item-tarefa table td.col-3{border-top: 1px solid #ddd; vertical-align: top;padding: 5px;font-size: 10px;width:50%;}
+div.item-tarefa table td.col-3 h4{margin: 0px;padding: 0px;font-size: 10px;}
+div.item-tarefa table td.col-4{vertical-align: top; border-left: 1px solid #ddd; padding: 9px;}
+div.item-tarefa table td.col-5{vertical-align: top; border-left: 1px solid #ddd;}
+div.item-tarefa table td.col-5 div{color: #ddd;text-align: center;}
+div.item-tarefa table td.col-5 div span.string-status{width:130px !important;display:block; line-height: 25px; background: #ddd; color: #999; text-transform: uppercase; font-size: 10px; padding: 0px 10px;}
+div.item-tarefa table td.col-5 div span.icon-status{display: block;line-height: 66px;color: #ddd;}
+div.item-tarefa table td.col-5 div span.icon-status i{line-height: inherit;}
+div.item-tarefa table td.col-5 div span.icon-status i:hover{cursor: pointer;}
+div.item-tarefa table td.col-6{border-top: 1px solid #ddd; width:50%;vertical-align: top;border-left: 1px solid #ddd;padding: 4px 9px 0px 9px;font-size: 10px;}
+div.item-tarefa table td.col-6 h4{padding: 0px;margin: 0px;font-size: 10px;}
+div.item-tarefa .text-success{color: #3c763d;}
+div.item-tarefa .text-info{color: #31708f;}
+div.item-tarefa .text-warning{color: #f8ac59;}
+div.item-tarefa .text-danger{color: #a94442;}
+
+
+
+/*
+
+    TAREFA AGUARDANDO INICIO EM SALA DE SITUAÇÃO
+
+*/
+
+.tarefa-situacao {
+    background: #ffefef;
+    border-color: #ffc1c1;
+}
+
+div.tarefa-situacao td *,
+div.tarefa-situacao td.col-2 h4,
+div.tarefa-situacao td.col-1 {
+    color: #ffc1c1 !important;
+}
+
+.tarefa-situacao td {
+    border-color: #ffc1c1 !important;
+}
+
+div.tarefa-situacao table td.col-5 div span.string-status {
+    background: #ffc1c1;
+    color: #fff !important;
+}
+
+div.tarefa-situacao table td.col-5 div span.icon-status {
+    color: #ffc1c1 !important;
+}
+
+div.tarefa-situacao .btn {
+    background: #ffc1c1;
+    border: none;
+    color: #fff !important;
+}
+
+/*
+
+    TAREFA EM EXECUÇÃO EM SALA DE SITUAÇÂO
+
+*/
+
+.tarefa-situacao-warning {
+    background: #fffcef;
+    border-color: #ffd084;
+}
+
+div.tarefa-situacao-warning td *,
+div.tarefa-situacao-warning td.col-2 h4,
+div.tarefa-situacao-warning td.col-1 {
+    color: #ffd084 !important;
+}
+
+.tarefa-situacao-warning td {
+    border-color: #ffd084 !important;
+}
+
+div.tarefa-situacao-warning table td.col-5 div span.string-status {
+    background: #ffd084;
+    color: #fff !important;
+}
+
+div.tarefa-situacao-warning table td.col-5 div span.icon-status {
+    color: #ffd084 !important;
+}
+
+div.tarefa-situacao-warning .btn {
+    background: #ffd084;
+    border: none;
+    color: #fff !important;
+}
+
+/*
+
+    TAREFA FINALIZADA
+
+*/
+
+.tarefa-finalizada {
+    background: #f2fff9;
+    border-color: #a8e0ac;
+}
+
+div.tarefa-finalizada td *,
+div.tarefa-finalizada td.col-2 h4,
+div.tarefa-finalizada td.col-1 {
+    color: #8cbf83 !important;
+}
+
+.tarefa-finalizada td {
+    border-color: #a8e0ac !important;
+}
+
+div.tarefa-finalizada table td.col-5 div span.string-status {
+    background: #a8e0ac;
+    color: #fff !important;
+}
+
+div.tarefa-finalizada table td.col-5 div span.icon-status {
+    color: #a8e0ac !important;
+}
+
+div.tarefa-finalizada .btn {
+    background: #a8e0ac;
+    border: none;
+    color: #fff !important;
+}
+
+/*
+
+    TAREFA ANDAMENTO
+
+*/
+
+.tarefa-andamento {
+    background: #e8f1ff;
+    border-color: #b2d0f7;
+}
+
+div.tarefa-andamento td *,
+div.tarefa-andamento td.col-2 h4,
+div.tarefa-andamento td.col-1 {
+    color: #94b0dd !important;
+}
+
+.tarefa-andamento td {
+    border-color: #b2d0f7 !important;
+}
+
+div.tarefa-andamento table td.col-5 div span.string-status {
+    background: #b2d0f7;
+    color: #fff !important;
+}
+
+div.tarefa-andamento table td.col-5 div span.icon-status {
+    color: #94b0dd !important;
+}
+
+div.tarefa-andamento .btn {
+    background: #b2d0f7;
+    border: none;
+    color: #fff !important;
+}
+
+/**************************************/

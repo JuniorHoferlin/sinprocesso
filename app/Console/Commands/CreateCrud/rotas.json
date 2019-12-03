@@ -1,0 +1,30 @@
+[
+    {
+        "tipo": "[{titulo}]",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "[{route_as}].index",
+        "descricao": "Visualizar [{titulo}]"
+    },
+    {
+        "tipo": "[{titulo}]",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "[{route_as}].adicionar",
+        "descricao": "Adicionar [{titulo}]"
+    },
+    {
+        "tipo": "[{titulo}]",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "[{route_as}].alterar",
+        "descricao": "Alterar [{titulo}]"
+    },
+    {
+        "tipo": "[{titulo}]",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "[{route_as}].excluir",
+        "descricao": "Excluir [{titulo}]"
+    }
+]

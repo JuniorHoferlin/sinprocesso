@@ -1,0 +1,33 @@
+<table class="table table-hover table-bordered" width="100%">
+    <thead>
+    <tr style="background: #eee;">
+        [{colunas_lista}]
+        @if (!isset($imprimir))
+            <th colspan="2" width="1%"></th>
+        @endif
+    </tr>
+    </thead>
+    <tbody>
+    @forelse($dados as $dado)
+        <tr>
+            [{colunas_lista_print}]
+            @if (!isset($imprimir))
+                @can('[{route_as}].alterar')
+                    <td>
+                        @include('partials.botao_editar', ['url' => route('[{route_as}].alterar', $dado->id)])
+                    </td>
+                @endcan
+                @can('[{route_as}].excluir')
+                    <td>
+                        @include('partials.botao_excluir', ['url' => route('[{route_as}].excluir', $dado->id)])
+                    </td>
+                @endcan
+            @endif
+        </tr>
+    @empty
+        <tr>
+            <td colspan="99">Nenhum registro encontrado.</td>
+        </tr>
+    @endforelse
+    </tbody>
+</table>

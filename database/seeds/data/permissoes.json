@@ -1,0 +1,884 @@
+[
+    {
+        "tipo": "Dashboard",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "home",
+        "descricao": "Visualizar dashboard"
+    },
+    {
+        "tipo": "Dashboard",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "buscar_dados_dashboard",
+        "descricao": "Buscar dados do dashboard"
+    },
+    {
+        "tipo": "Tipos de Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "tipos_rotas.index",
+        "descricao": "Visualizar tipos de rotas"
+    },
+    {
+        "tipo": "Tipos de Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "tipos_rotas.adicionar",
+        "descricao": "Adicionar tipos de rotas"
+    },
+    {
+        "tipo": "Tipos de Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "tipos_rotas.alterar",
+        "descricao": "Alterar tipos de rotas"
+    },
+    {
+        "tipo": "Tipos de Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "tipos_rotas.excluir",
+        "descricao": "Excluir tipos de rotas"
+    },
+    {
+        "tipo": "Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "rotas.index",
+        "descricao": "Visualizar rotas"
+    },
+    {
+        "tipo": "Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "rotas.adicionar",
+        "descricao": "Adicionar rotas"
+    },
+    {
+        "tipo": "Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "rotas.alterar",
+        "descricao": "Alterar rotas"
+    },
+    {
+        "tipo": "Rotas",
+        "desenv": "S",
+        "acesso_liberado": "N",
+        "rota": "rotas.excluir",
+        "descricao": "Excluir rotas"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "grupo_acesso.gerenciar_permissoes",
+        "descricao": "Gerenciar permissões de grupos de acesso"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "grupo_acesso.carregar_permissoes",
+        "descricao": "Carregar permissões de um grupo de acesso"
+    },
+    {
+        "tipo": "Feriados",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "feriados.index",
+        "descricao": "Visualizar feriados"
+    },
+    {
+        "tipo": "Feriados",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "feriados.adicionar",
+        "descricao": "Adicionar feriados"
+    },
+    {
+        "tipo": "Feriados",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "feriados.alterar",
+        "descricao": "Alterar feriados"
+    },
+    {
+        "tipo": "Feriados",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "feriados.excluir",
+        "descricao": "Excluir feriados"
+    },
+    {
+        "tipo": "Áreas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "areas.index",
+        "descricao": "Visualizar áreas"
+    },
+    {
+        "tipo": "Áreas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "areas.adicionar",
+        "descricao": "Adicionar áreas"
+    },
+    {
+        "tipo": "Áreas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "areas.alterar",
+        "descricao": "Alterar áreas"
+    },
+    {
+        "tipo": "Áreas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "areas.excluir",
+        "descricao": "Excluir áreas"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "grupo_acesso.index",
+        "descricao": "Visualizar grupos de acesso"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "grupo_acesso.adicionar",
+        "descricao": "Adicionar grupos de acesso"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "grupo_acesso.alterar",
+        "descricao": "Alterar grupos de acesso"
+    },
+    {
+        "tipo": "Grupos de Acesso",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "grupo_acesso.excluir",
+        "descricao": "Excluir grupos de acesso"
+    },
+    {
+        "tipo": "Tipos de Regras",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_regra.index",
+        "descricao": "Visualizar tipo de regra"
+    },
+    {
+        "tipo": "Tipos de Regras",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_regra.adicionar",
+        "descricao": "Adicionar tipo de regra"
+    },
+    {
+        "tipo": "Tipos de Regras",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_regra.alterar",
+        "descricao": "Alterar tipo de regra"
+    },
+    {
+        "tipo": "Tipos de Regras",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_regra.excluir",
+        "descricao": "Excluir tipo de regra"
+    },
+    {
+        "tipo": "Insumos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "insumo.index",
+        "descricao": "Visualizar insumo"
+    },
+    {
+        "tipo": "Insumos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "insumo.adicionar",
+        "descricao": "Adicionar insumo"
+    },
+    {
+        "tipo": "Insumos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "insumo.alterar",
+        "descricao": "Alterar insumo"
+    },
+    {
+        "tipo": "Insumos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "insumo.excluir",
+        "descricao": "Excluir insumo"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_processo.index",
+        "descricao": "Visualizar tipo de processo"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_processo.adicionar",
+        "descricao": "Adicionar tipo de processo"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_processo.alterar",
+        "descricao": "Alterar tipo de processo"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tipo_processo.excluir",
+        "descricao": "Excluir tipo de processo"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tipo_processo.adicionar_regra",
+        "descricao": "Adicionar regras em tipos de processos"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tipo_processo.remover_regra",
+        "descricao": "Remover regras em tipos de processos"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tipo_processo.sicronizar_tarefa",
+        "descricao": "Selecionar tarefas para tipos de processos"
+    },
+    {
+        "tipo": "Tipos de Processos",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tipo_processo.ordernar_tarefas",
+        "descricao": "Ordernar tarefas em tipos de processos"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "termo_referencia.index",
+        "descricao": "Visualizar termo de referência"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "termo_referencia.adicionar",
+        "descricao": "Adicionar termo de referência"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "termo_referencia.alterar",
+        "descricao": "Alterar termo de referência"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "termo_referencia.excluir",
+        "descricao": "Excluir termo de referência"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "termo_referencia.procurar",
+        "descricao": "Procurar por termo de referência"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "termo_referencia.acrescentar_insumo",
+        "descricao": "Acrescentar insumo"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "termo_referencia.acrescentar_insumo_salvar",
+        "descricao": "Salvar acréscimo de insumo"
+    },
+    {
+        "tipo": "Termos de Referência",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "termo_referencia.ver_insumos_adicionados",
+        "descricao": "Ver insumos adicionados"
+    },
+    {
+        "tipo": "Funções",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "funcoes.index",
+        "descricao": "Visualizar Funções"
+    },
+    {
+        "tipo": "Funções",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "funcoes.adicionar",
+        "descricao": "Adicionar Funções"
+    },
+    {
+        "tipo": "Funções",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "funcoes.alterar",
+        "descricao": "Alterar Funções"
+    },
+    {
+        "tipo": "Funções",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "funcoes.excluir",
+        "descricao": "Excluir Funções"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "usuarios.index",
+        "descricao": "Visualizar Usuários"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "usuarios.adicionar",
+        "descricao": "Adicionar Usuários"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "usuarios.alterar",
+        "descricao": "Alterar Usuários"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "usuarios.excluir",
+        "descricao": "Excluir Usuários"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "usuarios.alterar_status",
+        "descricao": "Ativar\/Desativar usuários"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "usuarios.carregar_cidades",
+        "descricao": "Carregar cidades de um estado"
+    },
+    {
+        "tipo": "Documento Padrão",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "documento_padrao.index",
+        "descricao": "Visualizar Documentos Padrão"
+    },
+    {
+        "tipo": "Documento Padrão",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "documento_padrao.adicionar",
+        "descricao": "Adicionar Documentos Padrão"
+    },
+    {
+        "tipo": "Documento Padrão",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "documento_padrao.alterar",
+        "descricao": "Alterar Documentos Padrão"
+    },
+    {
+        "tipo": "Documento Padrão",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "documento_padrao.excluir",
+        "descricao": "Excluir Documentos Padrão"
+    },
+    {
+        "tipo": "Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.index",
+        "descricao": "Visualizar Tarefas"
+    },
+    {
+        "tipo": "Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.adicionar",
+        "descricao": "Adicionar Tarefas"
+    },
+    {
+        "tipo": "Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.alterar",
+        "descricao": "Alterar Tarefas"
+    },
+    {
+        "tipo": "Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.excluir",
+        "descricao": "Excluir Tarefas"
+    },
+    {
+        "tipo": "Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.carrega_grupo_acesso",
+        "descricao": "Carregar grupos de acesso de uma area"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "formularios.index",
+        "descricao": "Visualizar Formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "formularios.adicionar",
+        "descricao": "Adicionar Formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "formularios.alterar",
+        "descricao": "Alterar Formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "formularios.excluir",
+        "descricao": "Excluir Formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "formularios.adicionar_campo",
+        "descricao": "Adicionar campos em formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "formularios.remover_campo",
+        "descricao": "Remover campos de formulários"
+    },
+    {
+        "tipo": "Formulários",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "formularios.salvar_campo",
+        "descricao": "Salvar dados de um campo de um formulário"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.novo",
+        "descricao": "Abrir novo processo"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.finalizar",
+        "descricao": "Finalizar processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.index",
+        "descricao": "Gerenciar processos"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar",
+        "descricao": "Visualizar todos os detalhes de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_observacoes",
+        "descricao": "Visualizar aba de observações de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.adicionar_observacao",
+        "descricao": "Adicionar observações em um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.remover_observacao",
+        "descricao": "Remover observações de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_comentarios",
+        "descricao": "Visualizar aba de comentários de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.adicionar_comentario",
+        "descricao": "Adicionar comentários em um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.remover_comentario",
+        "descricao": "Remover comentários de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_plano_acao",
+        "descricao": "Visualizar aba de plano de ação de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.salvar_plano_acao",
+        "descricao": "Salvar plano de ação de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_documentos",
+        "descricao": "Visualizar aba de documentos em processos"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.salvar_documentos",
+        "descricao": "Salvar documentos padrões de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_anexos",
+        "descricao": "Visualizar aba de anexos de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.adicionar_anexos",
+        "descricao": "Adicionar anexos em um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.remover_anexos",
+        "descricao": "Remover anexos de um processo"
+    },
+    {
+        "tipo": "Processos",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_painel",
+        "descricao": "Visualizar aba painel de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_tarefas",
+        "descricao": "Visualizar aba de tarefas de um processo"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.visualizar_todas_tarefas",
+        "descricao": "Visualizar todas as tarefas de um processo"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.iniciar_qualquer_tarefa",
+        "descricao": "Iniciar qualquer tarefa de um processo manualmente"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.enviar_sala_situacao",
+        "descricao": "Marcar processo em Sala de Situação"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.iniciar_tarefa_processo",
+        "descricao": "Iniciar tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.finalizar_tarefa_processo",
+        "descricao": "Finalizar tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "processos.carregar_tarefas",
+        "descricao": "Carregar tarefas de um processo via AJAX"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.carregar_para_reportar",
+        "descricao": "Carregar tarefas de um processo para reportar"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.carregar_para_comprar",
+        "descricao": "Carregar tarefas de um processo para efetuar a compra"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.reportar_tarefa_processo",
+        "descricao": "Reportar tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "tarefas.comprar_tarefa_processo",
+        "descricao": "Tarefa de compra de insumos"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.visualizar_documentos_processo",
+        "descricao": "Visualizar documentos de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.adicionar_documento",
+        "descricao": "Adicionar documento a uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.remover_documento",
+        "descricao": "Remover documento de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.adicionar_observacao",
+        "descricao": "Adicionar observação em uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.remover_observacao",
+        "descricao": "Remover observação de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.visualizar_observacoes_processo",
+        "descricao": "Visualizar observações de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.visualizar_comentarios_processo",
+        "descricao": "Visualizar comentários de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.adicionar_comentario",
+        "descricao": "Adicionar comentário em uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Tarefas",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.remover_comentario",
+        "descricao": "Remover comentário de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "tarefas.visualizar_insumos_processo",
+        "descricao": "Visualizar insumos comprados de uma tarefa de um processo"
+    },
+    {
+        "tipo": "Processos - Especial",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "processos.adicionar_tarefa_exclusiva",
+        "descricao": "Adicionar tarefa exclusiva do processo"
+    },
+    {
+        "tipo": "Auditoria",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "auditoria.index",
+        "descricao": "Visualizar auditoria"
+    },
+    {
+        "tipo": "Auditoria",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "auditoria.visualizar",
+        "descricao": "Visualizar detalhes de auditorias"
+    },
+    {
+        "tipo": "Modalidades",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "modalidade.index",
+        "descricao": "Visualizar Modalidade"
+    },
+    {
+        "tipo": "Modalidades",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "modalidade.adicionar",
+        "descricao": "Adicionar Modalidade"
+    },
+    {
+        "tipo": "Modalidades",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "modalidade.alterar",
+        "descricao": "Alterar Modalidade"
+    },
+    {
+        "tipo": "Modalidades",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "modalidade.excluir",
+        "descricao": "Excluir Modalidade"
+    },
+    {
+        "tipo": "Relatórios",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "andamento_tarefa.index",
+        "descricao": "Visualizar relatório de Andamento de Tarefas"
+    },
+    {
+        "tipo": "Relatórios",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "insumo_processo.index",
+        "descricao": "Visualizar relatório de insumos por processo"
+    },
+    {
+        "tipo": "Relatórios",
+        "desenv": "N",
+        "acesso_liberado": "S",
+        "rota": "insumo_processo.ver",
+        "descricao": "Visualizar os insumos no relatório de insumos por processo"
+    },
+    {
+        "tipo": "Relatórios",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "informacao_area.index",
+        "descricao": "Visualizar relatório de Informações por área"
+    },
+    {
+        "tipo": "Suporte",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "chamado.index",
+        "descricao": "Visualizar seus chamados abertos"
+    },
+    {
+        "tipo": "Usuários",
+        "desenv": "N",
+        "acesso_liberado": "N",
+        "rota": "minhas_tarefas",
+        "descricao": "Visualizar tela de minhas tarefas"
+    }
+]

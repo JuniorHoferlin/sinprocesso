@@ -1,0 +1,5 @@
+                        <div class="form-group col-lg-3 col-sm-6">
+                            <label for="[{campo}]">[{label}]</label>
+                            <input type="text" name="[{campo}]" id="[{campo}]" class="form-control" value="{{ request('[{campo}]') }}"/>
+                        </div>
+

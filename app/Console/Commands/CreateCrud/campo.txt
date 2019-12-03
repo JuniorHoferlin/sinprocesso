@@ -1,0 +1,10 @@
+<div class="form-group">
+    <label class="col-sm-2 control-label" for="[{campo}]">
+        [{label}]
+        <small><i class="fa fa-asterisk"></i></small>
+    </label>
+    <div class="col-sm-6">
+        <input type="text" name="[{campo}]" id="[{campo}]" class="form-control" value="{{ isset($[{tabela}]) ? $[{tabela}]->[{campo}] : '' }}" placeholder="[{label}]" required>
+    </div>
+</div>
+

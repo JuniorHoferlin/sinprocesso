@@ -1,0 +1,1 @@
+<input type="text" class="form-control desativar-com-regra" id="{{ $campo->id }}" name="formulario[{{ $campo->id }}]" {{ $campo->required == 'S' ? "required" : '' }}>

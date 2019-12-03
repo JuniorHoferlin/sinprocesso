@@ -1,0 +1,10 @@
+<?php
+
+namespace App\Models;
+
+class [{tabela_model}] extends BaseModel
+{
+
+    protected $table = '[{tabela}]';
+
+}
